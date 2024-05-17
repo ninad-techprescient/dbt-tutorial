@@ -1,0 +1,31 @@
+[0m14:53:51.468329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eef6a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ef1d6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eefc190>]}
+
+
+============================== 14:53:51.483236 | 00b576e4-234f-4bf3-8a26-adba08a6dd67 ==============================
+[0m14:53:51.483236 [info ] [MainThread]: Running with dbt=1.8.0
+[0m14:53:51.484327 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ninad/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init jaffle_shop', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:53:51.517419 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/ninad/.dbt')}
+[0m14:53:51.518330 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:53:51.523325 [debug] [MainThread]: Starter project path: /Users/ninad/bin/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:53:51.538825 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:53:51.539553 [info ] [MainThread]: Setting up your profile.
+[0m14:54:30.741379 [info ] [MainThread]: Profile jaffle_shop written to /Users/ninad/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:54:30.759741 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 39.40244, "process_user_time": 2.015799, "process_kernel_time": 0.490956, "process_mem_max_rss": "86556672", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:54:30.761266 [debug] [MainThread]: Command `dbt init` succeeded at 14:54:30.760970 after 39.40 seconds
+[0m14:54:30.762302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b223d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eef7850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b386c50>]}
+[0m14:54:30.763277 [debug] [MainThread]: Flushing usage events
